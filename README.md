@@ -33,8 +33,9 @@ MATLAB Scripts:
 Getting Started:
 - Install MATLAB. This is commercial software available from The MathWorks. For system requirements and installation instructions, please refer to their documentation.
 - Install LTSPICE Simulator. It is a free SPICE simulator from Analog Devices. Download link: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
-- Update the variable "ltspice_path" in MATLAB scripts with your LTSPICE.exe path
+- Update the variable "net.param.ltspice_path" in MATLAB function "spice_netlist_3d_run_fn.m" with your LTSPICE.exe path
 - Run the required MATLAB Script
+
 
 Notes:
 - These MATLAB files were tested using MATLAB 2018b version
