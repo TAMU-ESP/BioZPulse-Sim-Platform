@@ -4,7 +4,7 @@
 Overview of (a) Bio-Z sensing and (b) 3D time-varying Bio-Z model.
 
 BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
-This repository includes the source code of the bio-impedance simulation platform. If you used it, please reference our paper:
+This repository includes the source code of the bio-impedance simulation platform. If you used our source code, please reference our paper:
 
 Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform using 3D Time-Varying Impedance Grid for Arterial Pulse Wave Modeling, IEEE Biomedical Circuits and Systems Conference (BioCAS), October 17-19, 2019, Nara, Japan. [(Paper)][1].
 
