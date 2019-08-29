@@ -1,4 +1,6 @@
 # BioZPulse-Sim-Platform
+
+
 BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
 This repository includes the source code of the bio-impedance simulation platform used in the following paper:
 
@@ -39,5 +41,12 @@ Getting Started:
 
 Notes:
 - These MATLAB files were tested using MATLAB 2018b version
+
+## Contact us
+Bassem Ibrahim: bassem@tamu.edu
+
+Drew A. Hall: drewhall@ucsd.edu
+
+Roozbeh Jafari: rjafari@tamu.edu
 
 [1]: https://www.dropbox.com/s/v1uuoazmgx41jrz/BioCAS2019_final.pdf?dl=0
