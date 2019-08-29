@@ -2,7 +2,7 @@
 BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
 This repository includes the source code of the bio-impedance simulation platform used in the following paper:
 
-Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform using 3D Time-Varying Impedance Grid for Arterial Pulse Wave Modeling, IEEE Biomedical Circuits and Systems Conference (BioCAS), October 17-19, 2019, Nara, Japan. (paper )
+Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform using 3D Time-Varying Impedance Grid for Arterial Pulse Wave Modeling, IEEE Biomedical Circuits and Systems Conference (BioCAS), October 17-19, 2019, Nara, Japan. [(Paper)][1].
 
 BioZPulse simulation platform source code files:
 
@@ -39,3 +39,5 @@ Getting Started:
 
 Notes:
 - These MATLAB files were tested using MATLAB 2018b version
+
+[1]: https://www.dropbox.com/s/v1uuoazmgx41jrz/BioCAS2019_final.pdf?dl=0
