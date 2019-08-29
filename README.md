@@ -1,6 +1,6 @@
 # BioZPulse-Sim-Platform
 
-[BioZPulse-Sim-Platform](./figures/grid.jpg)
+![BioZPulse-Sim-Platform](./figures/grid.jpg)
 
 BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
 This repository includes the source code of the bio-impedance simulation platform used in the following paper:
