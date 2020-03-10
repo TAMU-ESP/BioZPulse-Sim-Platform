@@ -13,7 +13,7 @@ Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform 
 
 BioZPulse simulation platform source code files:
 
-MATLAB Core Functions:
+MATLAB Functions:
 - spice_netlist_3d_gen_fn.m  		Generate SPICE netlist file (netlsit.cir)
 - spice_netlist_3d_run_fn.m 		Run LTSPICE Simulator
 - spice_netlist_3d_pp_fn.m  		Post-processing for voltage and PTT calculations
@@ -27,21 +27,14 @@ MATLAB Core Functions:
 - importfile_ltspice_header.m       Import the header of the LTSPICE output file to MATLAB
 - imp_image_gen_fn.m                Adjust bio-impoedance values to MATLAB
 
-
-MATLAB Scripts:
-- ltspice_3d_model_dc_spacing.m     Simulate DC Bio-Z(V_DC) for different electrode spacing 
-- ltspice_3d_model_dc_Y.m           Simulate DC Bio-Z(V_DC) for different vertical distance of sensing electrodes 
-- ltspice_3d_model_deltaR1.m		Simulate arterial pulse amplitude(deltaV_PP) when sensing location is aligned with the artery
-- ltspice_3d_model_deltaR2.m 		Simulate arterial pulse amplitude(deltaV_PP) when sensing location is 1.5cm away from the artery
-- ltspice_3d_model_freq.m			Simulate DC Bio-Z(V_DC) and arterial pulse amplitude(deltaV_PP) versus frequency
-- ltspice_3d_model_pene.m			Simulate arterial pulse amplitude(deltaV_PP) versus different artery's depth (Z_A)
-- ltspice_3d_model_ptt.m			Simulate PTT and pulse amplitude(deltaV_PP) for different sensing locations relative to the artery
+MATLAB Example
+ - ltspice_3d_model_example.m     An example to call the MATLAB functions and set the required parameters
 
 Getting Started:
 - Install MATLAB. This is commercial software available from The MathWorks. For system requirements and installation instructions, please refer to their documentation.
 - Install LTSPICE Simulator. It is a free SPICE simulator from Analog Devices. Download link: https://www.analog.com/en/design-center/design-tools-and-calculators/ltspice-simulator.html
 - Update the variable "net.param.ltspice_path" in MATLAB function "spice_netlist_3d_run_fn.m" with your LTSPICE.exe path
-- Run the required MATLAB Script
+- Run the MATLAB functions similar to the example MATLAB script.
 
 
 Notes:
