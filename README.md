@@ -1,21 +1,24 @@
 # BioZPulse-Sim-Platform(v2.0)
+BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
+
+This code implements our Bio-impedance (Bio-Z) simulation platform that models the tissue, arterial pulse wave, and Bio-Z sensing configuration using a 3D circuit model based on a time-varying impedance grid. This circuit model is simulated in SPICE and can be used to guide design decisions (i.e. electrode placement relative to the artery and electrode configuration) to optimize the monitoring of pulse wave prior to experimentation. This model will enable researchers and designers to create time-varying blood flow models and rapidly test the effectiveness of the sensing methods and algorithms without the need for extensive experimentation.
+
+This repository includes the source code of the bio-impedance simulation platform that is explained in our following papers:
+
+1-Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Pulse Wave Modeling using Bio-Impedance Simulation Platform based on a 3D Time-Varying Circuit Model,  IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) (Under Review)
+
+2-Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform using 3D Time-Varying Impedance Grid for Arterial Pulse Wave Modeling, IEEE Biomedical Circuits and Systems Conference (BioCAS), October 17-19, 2019, Nara, Japan. [(Paper)][1].
+
+If you used our source code, please reference our papers.
 
 <img src="./figures/grid.jpg" alt="drawing" width="600"/>
 Overview of (a) Bio-Z sensing and (b) 3D Circuit Model.
 
-
-<img src="./figures/delta.jpg" alt="drawing" width="600"/>
-(a) Bio-Z Sensing for PTT from the wrist, (b) Overview of the proposed wrist circuit model for Bio-Z simulation platform based on a 3D time-varying impedance grid that models arterial pulse wave and PTT. 
-
-
 <img src="./figures/model.jpg" alt="drawing" width="600"/>
 Proposed wrist circuit model: (a) cross-section of the wrist anatomy, (b) 2D impedance map of the model at Y = 30 mm, (c) 2D impedance map at X = 23 mm , and (d) 3D impedance map.
 
-
-BioZPulse Simulation Platform for Arterial Pulse Wave Modeling by Bassem Ibrahim, Drew A. Hall and Roozbeh Jafari.
-This repository includes the source code of the bio-impedance simulation platform. If you used our source code, please reference our paper:
-
-Bassem Ibrahim, Drew A. Hall, Roozbeh Jafari, Bio-impedance Simulation Platform using 3D Time-Varying Impedance Grid for Arterial Pulse Wave Modeling, IEEE Biomedical Circuits and Systems Conference (BioCAS), October 17-19, 2019, Nara, Japan. [(Paper)][1].
+<img src="./figures/delta.jpg" alt="drawing" width="600"/>
+(a) Bio-Z Sensing for PTT from the wrist, (b) Overview of the proposed wrist circuit model for Bio-Z simulation platform based on a 3D time-varying impedance grid that models arterial pulse wave and PTT. 
 
 BioZPulse simulation platform source code files:
 
