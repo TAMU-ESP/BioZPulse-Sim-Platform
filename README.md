@@ -1,6 +1,6 @@
 # BioZPulse-Sim-Platform
 
-![BioZPulse-Sim-Platform](./figures/grid.jpg&s=10)
+![BioZPulse-Sim-Platform](./figures/grid.jpg)
 
 Overview of (a) Bio-Z sensing and (b) 3D Circuit Model.
 
