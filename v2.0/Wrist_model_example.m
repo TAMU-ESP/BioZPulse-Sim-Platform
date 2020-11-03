@@ -8,7 +8,7 @@ set(0,'DefaultFigureWindowStyle','docked')
 write_netlist='Example';               % Name of results folder
 write_figures=0;                       % Save Figures into results folder
 write_mat=1;                           % Save Matlab Worksapce into .mat file results folder
-complete_model=0;                      % 1=> Complete Wrist Model, 0=> Section of Wrist Model
+complete_model=0;                      % 1=> Complete Wrist Model, 0=> Section of Wrist Model for faster simulation
 debug=0;                               % Run/Skip SPICE Simulation 0=>Run Simulation, 1=> Skip simulation and plot only conductivity images for debugging purposes
 
 % Electrode Configuration
@@ -33,7 +33,7 @@ for t1=1
     PIx=22;PIy=Ly*0.5-SVy(1)/2-(SIy-SVy(1))/2;
     PVx=[PIx PIx];PVy=PIy+[SVy(1),SVy(1)*3];
      
-    % Whole Wrist Model
+    % Whole Wrist Model (Define tissue type, center point (X,Y,Z) and the size for each dimension of the tissue cube)
     tissue_arr={'Fat','Muscle','Fat','Bone Cortical','Bone Cortical','Bone Cancellous','Bone Cancellous','Blood','Blood'};
     center_z_arr=[19,16,2,20,20,20,20,6,6]./Lz;
     center_x_arr=[43,43,43,26,68,26,68,22,66]./Lx;
